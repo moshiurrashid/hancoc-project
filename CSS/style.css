@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  background: #121212;
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  width: 1320px;
+}
+/* --------------------------------nav bar start------------------------------------ */
+header {
+  position: absolute;
+  width: 100%;
+}
+header nav .nav-item .nav-list {
+  font-size: 16px;
+  font-weight: 400;
+  color: #dddddd;
+  margin-left: 30px;
+  text-decoration: none;
+}
+header nav .right-part ul li {
+  font-size: 16px;
+  font-weight: 400;
+  color: #dddddd;
+  margin-left: 25px;
+  text-decoration: none;
+}
+
+header nav .right-part ul {
+  margin: 0;
+  padding: 0;
+}
+header nav .right-part ul li span {
+  margin-left: 7px;
+}
+/* --------------------------------nav bar end------------------------------------ */
+/* --------------------------------Banner start------------------------------------ */
+#banner .banner_wrapper {
+  padding-top: 337px;
+}
+#banner {
+  background: url("/Images/banner_image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#banner .banner_wrapper .banner_title h4 {
+  font-size: 27px;
+  font-weight: 400;
+  letter-spacing: 10%;
+  color: white;
+}
+#banner .banner_wrapper .banner_title h2 {
+  font-size: 60px;
+  font-weight: 600;
+  color: white;
+  position: relative;
+  padding-bottom: 5px;
+}
+#banner .banner_wrapper .banner_title h2::after {
+  content: "";
+  width: 90px;
+  height: 4px;
+  background-color: white;
+  position: absolute;
+  bottom: 9px;
+  left: 519px;
+}
+#banner .banner_wrapper .banner_title p {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  width: 521px;
+  padding-bottom: 48px;
+}
+#banner .banner_wrapper .banner_title .view_more {
+  font-size: 16px;
+  font-weight: 400;
+  color: #121212;
+  width: 128px;
+  height: 50px;
+  margin-bottom: 301px;
+  border: none;
+}
+#banner .banner_wrapper .banner_title .social_media_icons ul {
+  margin: 0;
+  padding: 0;
+}
+#banner .banner_wrapper .banner_title .social_media_icons .d-flex {
+  gap: 20px;
+  padding-bottom: 103px;
+}
+#banner .banner_wrapper .banner_title .social_media_icons ul li a {
+  text-decoration: none;
+}
+#banner .banner_wrapper .banner_title .social_media_icons ul li {
+  list-style: none;
+}
+#banner .banner_wrapper .banner_title .social_media_icons i {
+  font-size: 35px;
+  color: #d9d9d9;
+}
+
+/* --------------------------------Banner end------------------------------------ */
+/* --------------------------------about start------------------------------------ */
+#about_section .about_wrapper .about_title h2 {
+  background: #121212;
+}
+#about_section .about_wrapper .about_title h2 {
+  font-size: 38px;
+  line-height: 60px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: white;
+  position: relative;
+  padding-top: 34px;
+  margin-bottom: 57px;
+  width: 518px;
+}
+#about_section .about_wrapper .about_title h2::after {
+  content: "";
+  width: 120px;
+  height: 3px;
+  background-color: #ff4655;
+  position: absolute;
+  bottom: 11px;
+  right: 176px;
+}
+#about_section .about_wrapper .row h3 {
+  font-size: 27px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 8px;
+}
+#about_section .about_wrapper .row ul li {
+  list-style: none;
+  color: white;
+  padding-bottom: 10px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+}
+#about_section .about_wrapper .row ul {
+  margin: 0;
+  padding: 0;
+}
+#about_section .about_wrapper .row ul li i {
+  list-style: none;
+  color: #ff4655;
+}
+#about_section .about_wrapper .row p {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+#about_section .about_wrapper .row button {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  background-color: #212121;
+  font-size: 18px;
+  font-weight: 400;
+  font-size: 16px;
+  font-weight: 400;
+  width: 128px;
+  height: 50px;
+  border: none;
+}
+#about_section .about_wrapper .row {
+  margin-bottom: 50px;
+}
+#about_section .about_wrapper .count .row {
+  margin-bottom: 80px;
+}
+#about_section .about_wrapper .count .row .item {
+  width: 315px;
+  height: 170px;
+  background-color: #212121;
+  border-radius: 0 50px 0 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#about_section .about_wrapper .count .row .item h2 {
+  color: #ffffff;
+  font-size: 60px;
+  font-weight: 600;
+  padding-bottom: 18px;
+  padding-top: 26px;
+  position: relative;
+}
+#about_section .about_wrapper .count .row .item h2::after {
+  content: "";
+  background-color: #ff4655;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  position: absolute;
+  right: -20px;
+  bottom: 25px;
+}
+#about_section .about_wrapper .count .row .item p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+}
+/* --------------------------------about end------------------------------------*/
+/* --------------------------------Popular Games Start------------------------------------*/
+
+#popular_games {
+  background-color: #191919;
+}
+#popular_games .row .column6 {
+  position: relative;
+}
+#popular_games .popular_games_wrapper .popular_games_title h3 {
+  width: 100%;
+  text-align: right;
+  color: white;
+  font-size: 38px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  font-family: "Barlow Condensed", sans-serif;
+  padding-top: 115px;
+  margin-bottom: 80px;
+  position: relative;
+}
+#popular_games .popular_games_wrapper .popular_games_title h3::after {
+  content: "";
+  width: 105px;
+  height: 3px;
+  background-color: #ff4655;
+  position: absolute;
+  bottom: 7px;
+  right: 115px;
+}
+#popular_games .row .image_without_background {
+  position: absolute;
+  bottom: 5px;
+  left: 40px;
+}
+#popular_games .row {
+  margin-bottom: 90px;
+  position: relative;
+}
+#popular_games .popular_games_wrapper .row i {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+}
+#popular_games .popular_games_wrapper .row .rightarrow {
+  right: 16px;
+  bottom: 22px;
+}
+#popular_games .popular_games_wrapper .row a {
+  text-decoration: none;
+}
+#popular_games .popular_games_wrapper .row .leftarrow {
+  right: 16px;
+  bottom: 82px;
+}
+/* --------------------------------Popular Games end------------------------------------*/
